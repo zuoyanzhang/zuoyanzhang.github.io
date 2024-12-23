@@ -15,8 +15,6 @@ doi = {10.1142/S0218194023500675},
 url = {https://doi.org/10.1142/S0218194023500675},
 eprint = {https://doi.org/10.1142/S0218194023500675},
 pdf = {scrlibm.pdf},
-dimensions = {true},
-google_scholar_id={9yKSN-GCB0IC},
 abstract = {The MPFR and CR-LIBM math libraries are frequently utilized due to their ability to generate correctly rounded results for all double-precision inputs. However, it is worth noting that MPFR has a slower average performance, while CR-LIBM achieves correct rounding over two iterations, rendering it less stable. In addition, CR-LIBM has a poor performance in handling the worst-case of correct rounding. This paper implements a correctly rounded elementary function library called SCR-LIBM in double-precision, which is stable and efficient. Our key idea is to divide subdomains and use the low-degree Taylor polynomial to approximate the elementary function in each subdomain. We simulate the high-precision representation based on the double–double data format, and use the error-free transformation and Double-double algorithm to control the error in the process of polynomial approximation and output compensation. Our approach ensures that the elementary function is correctly rounded, without the need for redundant iterations. The experimental evaluation shows that the average performance of elementary functions implemented in SCR-LIBM is 8.534 times faster than that of MPFR, and 2.492 times faster than that of CR-LIBM when dealing with the worst-case of correct rounding. What’s more, our SCR-LIBM is more stable than CR-LIBM. }
 }
 
@@ -29,9 +27,7 @@ abstract = {The MPFR and CR-LIBM math libraries are frequently utilized due to t
   year={2023},
   url={https://api.semanticscholar.org/CorpusID:264471102},
   doi = {10.1049/2023/6681267},
-  pdf = {PSO.pdf},
-  dimensions = {true},
-  google_scholar_id={2osOgNQ5qMEC}
+  pdf = {PSO.pdf}
 }
 
 @inproceedings{arfa,
