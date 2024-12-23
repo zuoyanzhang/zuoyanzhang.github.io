@@ -8,7 +8,8 @@
     - title: Deep Learning Systems
       items:
         # - LLM distributed training acceleration&#58;
-        - LLM distributed training acceleration.
+        - Automated search for distributed parallelization strategies in LLM training.
+        - Compute-communication co-design.
 
 - title: Funding &amp; Grants
   type: time_table

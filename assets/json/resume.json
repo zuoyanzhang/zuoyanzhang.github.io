@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Zuoyan Zhang",
-    "label": "PhD",
+    "label": "First-year PhD student",
     "image": "",
     "email": "zyanz AT hnu.edu.cn",
     "phone": "",
@@ -191,9 +191,16 @@
       "name": "Deep Learning Systems",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Parallel strategy search",
-        "Computing communication fusion",
-        "LLM distributed parallel acceleration"
+        "Automated search for distributed parallelization strategies in LLM training",
+        "Compute-communication co-design"
+      ]
+    },
+    {
+      "name": "Numerical Program Analysis",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Floating-point error detection",
+        "Repairing numerical programs"
       ]
     }
   ],
@@ -222,24 +229,21 @@
       "summary": "National Natural Science Foundation of China (Grant No. U20A20226)",
       "highlights": ["Participant"],
       "startDate": "2021-01",
-      "endDate": "2024-12",
-      "total": "¥ 2,600,000 in total; ¥ 800,000 for the Information Engineering University"
+      "endDate": "2024-12"
     },
     {
       "name": "Research on Error Detection Methods for Floating-point Arithmetic Expressions",
       "summary": "Open Project of the State Key Laboratory of Mathematical Engineering and Advanced Computing (Grant No. 2023B02)",
       "highlights": ["Main participant"],
       "startDate": "2022-10",
-      "endDate": "2024-09",
-      "total": "¥ 600,000"
+      "endDate": "2024-09"
     },
     {
       "name": "Intelligent Compilation and Optimization Techniques for Supernode Parallelism Strategies",
       "summary": "Huawei Technologies (Agreement No. TC20241115006)",
       "highlights": ["Main participant"],
       "startDate": "2022-10",
-      "endDate": "2024-09",
-      "total": "¥ 2,286,000"
+      "endDate": "2024-09"
     }
   ]
 }
