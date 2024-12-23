@@ -1,0 +1,26 @@
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: <a href='https://csee.hnu.edu.cn/index.htm'>College of Computer Science and Electronic Engineering</a>, <a href='https://www.hnu.edu.cn/index.htm'>Hunan University</a>, Changsha, China
+      year: 2024.09 - now
+      description:
+        - Supervisor&#58; <a href='https://yaozhujia.github.io/'>Prof. Jie Zhao</a>.
+        # - <a href='../assets/pdf/thesis.pdf'>PhD thesis</a>.
+    - title: MEng
+      institution: Information Engineering University, Zhengzhou, China
+      year: 2021.09 - 2024.06
+      description:
+        - Supervisor&#58; Prof. Shaozhong Guo.
+    - title: BEng
+      institution: <a href="https://computer.haut.edu.cn/">College of Information Science and Engineering</a>, <a href="https://www.haut.edu.cn/">Henan University of Technology</a>, Zhengzhou, China
+      year: 2017.09 - 2021.06
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: <a href='https://www.aisi.ac.cn/'>AI for Science Institute (BEIJING)</a>
+      year: 2023.06 - 2023.09
+      description:
+        - High performance computing Intern
