@@ -10,9 +10,12 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <style>
+      .profile {
+        height: fit-content; 
+      }
       .profile img {
         transform: scale(0.7); 
-        transform-origin: top right;
+        transform-origin: top left;
       }
     </style>
 
