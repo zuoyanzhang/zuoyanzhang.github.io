@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Zuoyan Zhang",
+    "label": "PhD",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "zyanz AT hnu.edu.cn",
+    "phone": "",
+    // "url": "https://alshedivat.github.io/al-folio/",
+    "summary": "A PhD student in Hunan University",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
