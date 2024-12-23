@@ -23,7 +23,7 @@ github_username: zuoyanzhang # your GitHub user name
 # linkedin_username: # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-# orcid_id: # your ORCID ID
+orcid_id: 0009-0005-2615-2541 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
@@ -45,7 +45,7 @@ semanticscholar_id: 2222347707 # your Semantic Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-# custom_social: # can be any name here other than the ones already defined above
-#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-#   title: Custom Social
-#   url: https://www.alberteinstein.com/
+custom_social: # can be any name here other than the ones already defined above
+  logo: assets/img/cycle.png # can be png, svg, jpg
+  title: CYCLE Lab
+  url: https://cyclelaboratory.github.io/
