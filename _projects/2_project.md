@@ -4,7 +4,8 @@ title: HSED
 description: HSED is implemented by using hierarchical search to detect the maximum error of floating-point arithmetic expressions.
 img: assets/img/hsed.jpg
 importance: 2
-category: fun
+category: work
+# category: fun
 giscus_comments: false
 ---
 
