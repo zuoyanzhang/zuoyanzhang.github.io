@@ -11,7 +11,8 @@ profile:
   more_info: >
     <style>
       .profile img {
-        transform: scale(0.6); 
+        transform: scale(0.7); 
+        transform-origin: top right;
       }
     </style>
 
