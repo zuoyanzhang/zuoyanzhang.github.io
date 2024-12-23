@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Position&#58; Ph.D. student<br>Affiliation&#58; <a href='http://csee.hnu.edu.cn/home.htm'>College of Computer Science and Electronic Engineering</a>, <a href='http://www-en.hnu.edu.cn/'>Hunan University</a><br>Contact&#58; zyanz AT hnu.edu.cn<br>Address&#58; Lushan Road (S), Yuelu District, Changsha, 410082, China.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: main.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
