@@ -2,7 +2,7 @@
 layout: page
 title: Eiffel
 description: A floating-point error detection tool
-img: assets/img/eiffel.png
+img: assets/img/eiffeltower.png
 importance: 1
 category: work
 related_publications: false
