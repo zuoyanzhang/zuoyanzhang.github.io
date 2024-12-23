@@ -1,10 +1,10 @@
 ---
 layout: page
 title: HSED
-description: A floating-point error detection tool
+description: HSED is implemented by using hierarchical search to detect the maximum error of floating-point arithmetic expressions.
 img: assets/img/hsed.jpg
 importance: 2
-category: work
+category: fun
 giscus_comments: false
 ---
 

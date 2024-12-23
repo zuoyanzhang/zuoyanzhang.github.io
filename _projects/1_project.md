@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eiffel
-description: A floating-point error detection tool
+description: Eiffel is a tool used to detect significant floating-point errors. Instead of search such significant floating-point errors, Eiffel infers the input ranges that triggers such errors via polynomial extrapolation.
 img: assets/img/eiffeltower.png
 importance: 1
 category: work
