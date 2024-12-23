@@ -11,11 +11,11 @@ profile:
   more_info: >
     <style>
       .profile {
-        height: fit-content; 
+        margin-bottom: -50px; 
       }
       .profile img {
         transform: scale(0.7); 
-        transform-origin: top left;
+        transform-origin: top center;
       }
     </style>
 
