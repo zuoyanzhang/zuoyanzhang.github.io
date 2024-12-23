@@ -11,10 +11,10 @@ profile:
   more_info: >
     <style>
       .profile {
-        margin-bottom: -50px; 
+        margin-bottom: -70px; 
       }
       .profile img {
-        transform: scale(0.7); 
+        transform: scale(0.6); 
         transform-origin: top center;
       }
     </style>
