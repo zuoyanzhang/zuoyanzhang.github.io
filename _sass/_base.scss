@@ -31,7 +31,7 @@ table {
 }
 
 .news table th {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: normal;
   color: #333333;
 }
@@ -739,6 +739,11 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        z-index: -1;
+        position: absolute;
+        top: 0.1rem;
+        margin-left: 5px;
+        margin-bottom: 5px;
       }
 
       .abbr {
@@ -748,6 +753,10 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
+
+          div {
+            color: white;
+          }
 
           a {
             color: white;
