@@ -7,12 +7,13 @@ nav_order: 3
 ---
 
 ### Awards
-- (2022) CSIG Excellent Doctoral Dissertation Award/中国图象图形学学会优秀博士学位论文奖 {**全国优博**}
+- (10/2024) Excellent MEng Dissertation Award/信息工程大学**优秀硕士论文奖**
+- (12/2023) National Scholarship/**国奖奖学金**, Ministry of Education of P.R. China
+- (11/2023) First Class Academic Scholarship, Information Engineering University
+- (11/2022) Second Class Academic Scholarship, Information Engineering University
+- (11/2021) First Class Academic Scholarship, Information Engineering University
 
 ### Services
-- 中国图象图形学报"图像/视频语义分割"专刊特邀编委
-  
-### Talks
-- (06/2021) Zhejiang University Computer Animation & Perception Group (CAPG) Talk
-  - Title: "Lite-HRNet: A Lightweight High-Resolution Network"
+- CCF湖南大学学生分会执行委员
+- 2024年湖南大学信息科学与工程学院编译原理本科生助教
 
