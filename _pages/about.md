@@ -2,22 +2,18 @@
 layout: about
 title: About
 permalink: /
-subtitle: Position&#58; Ph.D. student<br>Affiliation&#58; <a href='https://csee.hnu.edu.cn/index.htm'>College of Computer Science and Electronic Engineering</a>, <a href='https://www.hnu.edu.cn/index.htm'>Hunan University</a><br>Contact&#58; zyanz AT hnu.edu.cn<br>Address&#58; Lushan Road (S), Yuelu District, Changsha, 410082, China.
+subtitle: Ph.D Student@Hunan University
 
 profile:
-  align: right
+  align: left
   image: main.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <style>
-      .profile {
-        margin-bottom: -90px; 
-      }
-      .profile img {
-        transform: scale(0.7); 
-        transform-origin: top center;
-      }
-    </style>
+      <a href="/assets/pdf/cv.pdf"><i class="ai ai-cv-square ai-2x"></i></a>
+      <a href="https://dblp.org/pid/360/7212.html"><i class="ai ai-dblp ai-2x"></i></a>
+      <a href="https://scholar.google.com/citations?user=m6lSKEAAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+      <a href="https://github.com/zuoyanzhang"><i class="fa-brands fa-square-github fa-2x"></i></a>
+      <a href="https://www.zhihu.com/people/yu-chang-qian"><i class="fa-brands fa-zhihu fa-2x"></i></a>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
