@@ -10,8 +10,21 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
       <style>
+      .profile {
+      margin-bottom: 10px;
+      }
       .profile img {
         transform: scale(0.7); 
+        object-position: left top;
+        margin-bottom: 5px;
+      }
+      .more-info {
+        margin-top: 0;
+      }
+      @media (min-width: 576px) {
+        .post .post-content {
+          padding-left: 0;
+        }
       }
       </style>
       <a href="/assets/pdf/cv.pdf"><i class="ai ai-cv-square ai-2x"></i></a>
@@ -27,6 +40,6 @@ social: false # includes social icons at the bottom of the page
 
 Zuoyan Zhang is currently a first-year PhD student at the [CYCLE Lab](https://cyclelaboratory.github.io/) at [Hunan University](https://www.hnu.edu.cn/index.htm) under the supervisor Prof. [Jie Zhao](https://yaozhujia.github.io/). He got MEng degree from the State Key Laboratory of Mathematical Engineering and Advanced Computing at Information Engineering University under the supervisor Prof. Shaozhong Guo and Assoc. Prof. Jinchen Xu in June 2024. 
 
-His research interests span numerical program analysis and machine learning systems. In numerical analysis, he focuses on floating-point error detection and automated program repair through expression rewriting. Those work has been published in [ASE 2023](https://ieeexplore.ieee.org/document/10298397), [TJSC 2023](https://link.springer.com/article/10.1007/s11227-023-05523-6), and [ISSTA 2024](https://dl.acm.org/doi/10.1145/3650212.3680378). In machine learning systems, he investigates automated search strategies for distributed parallelization of large language model training and compute-communication co-design to hide communication overhead.
+His research interests span **Numerical Program Analysis** and **Machine Learning Systems**. In numerical analysis, he focuses on floating-point error detection and automated program repair through expression rewriting. Those works have been published in [ASE 2023](https://ieeexplore.ieee.org/document/10298397), [TJSC 2023](https://link.springer.com/article/10.1007/s11227-023-05523-6), and [ISSTA 2024](https://dl.acm.org/doi/10.1145/3650212.3680378). In machine learning systems, he investigates automated search strategies for distributed parallelization of large language model training and compute-communication co-design to hide communication overhead.
 
-Over the past few years, he has received several honors, including the **National Scholarship** in 2023, the **Excellent Meng Dissertation Award**, and two First-Class Academic Scholarships. From June to September 2023, he served as a high-performance computing intern at the AI for Science Institute in Beijing. He has also contributed to major initiatives such as a subproject to of the National Major Special Project and a regional innovation key project. Currently, he is the student lead on the Huawei-Hunan University co-innovation project Intelligent Compilation and Optimization Techniques for Supernode Parallelism Strategies. 
+Over the past few years, he has received several honors, including the **National Scholarship** in 2023, the **Excellent Meng Dissertation Award**, and two First-Class Academic Scholarships. From June to September 2023, he served as a high-performance computing intern at the [AI for Science Institute](https://www.aisi.ac.cn/#/) in Beijing. He has also contributed to major initiatives such as a subproject to of the National Major Special Project and a regional innovation key project. Currently, he is the student lead on the Huawei-Hunan University co-innovation project Intelligent Compilation and Optimization Techniques for Supernode Parallelism Strategies. 
