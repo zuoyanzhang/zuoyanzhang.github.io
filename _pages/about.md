@@ -11,12 +11,15 @@ profile:
   more_info: >
       <style>
       .profile img {
-        transform: scale(0.8); 
-        transform-origin: top center;
+        transform: scale(0.7); 
+        transform-origin: top left;
+      }
+      .profile .more-info {
+        margin-top: -20px;
+        padding-top: 0;
       }
       </style>
       <a href="/assets/pdf/cv.pdf"><i class="ai ai-cv-square ai-2x"></i></a>
-      <a href="zyanz@hnu.edu.cn"><i class="fa-solid fa-envelope ai-2x"></i></a>
       <a href="https://dblp.org/pid/360/7212.html"><i class="ai ai-dblp ai-2x"></i></a>
       <a href="https://scholar.google.com/citations?user=m6lSKEAAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a>
       <a href="https://github.com/zuoyanzhang"><i class="fa-brands fa-square-github fa-2x"></i></a>
