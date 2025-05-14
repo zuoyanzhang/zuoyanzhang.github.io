@@ -190,18 +190,12 @@
     {
       "name": "Deep Learning Systems",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Automated search for distributed parallelization strategies in LLM training",
-        "Compute-communication co-design"
-      ]
+      "keywords": ["Automated search for distributed parallelization strategies in LLM training", "Compute-communication co-design"]
     },
     {
       "name": "Numerical Program Analysis",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Floating-point error detection",
-        "Repairing numerical programs"
-      ]
+      "keywords": ["Floating-point error detection", "Repairing numerical programs"]
     }
   ],
   "references": [
