@@ -12,11 +12,6 @@ profile:
       <style>
       .profile img {
         transform: scale(0.7); 
-        transform-origin: top left;
-      }
-      .profile .more-info {
-        margin-top: -20px;
-        padding-top: 0;
       }
       </style>
       <a href="/assets/pdf/cv.pdf"><i class="ai ai-cv-square ai-2x"></i></a>
