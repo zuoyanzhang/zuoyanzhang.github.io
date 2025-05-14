@@ -738,12 +738,11 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
+      max-width: 100%;
+      width: 100%;
+
       .preview {
-        z-index: -1;
-        position: absolute;
-        top: 0.1rem;
-        margin-left: 5px;
-        margin-bottom: 5px;
+
       }
 
       .abbr {
