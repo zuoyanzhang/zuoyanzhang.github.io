@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: This page collects a(n incomplete) list of open-source projects that Zuoyan Zhang has ever involved in or currently participates in.
 nav: true
-nav_order: 4
+nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
