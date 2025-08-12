@@ -16,40 +16,6 @@ location = {Hangzhou, China},
 series = {QRS 2025}
 }
 
-@article{scrlibm,
-abbr = {IJSEKE},
-author = {Qu, Yang and Xu, Jinchen and Zhou, Bei and Hao, Jiangwei and Li, Fei and Zhang, Zuoyan},
-bibtex_show = {true},
-title = {SCR-LIBM: A Correctly Rounded Elementary Function Library in Double-Precision},
-year = {2024},
-volume = {34},
-number = {04},
-pages = {675-703},
-journal = {International Journal of Software Engineering and Knowledge Engineering},
-abstract = {The MPFR and CR-LIBM math libraries are frequently utilized due to their ability to generate correctly rounded results for all double-precision inputs. However, it is worth noting that MPFR has a slower average performance, while CR-LIBM achieves correct rounding over two iterations, rendering it less stable. In addition, CR-LIBM has a poor performance in handling the worst-case of correct rounding. This paper implements a correctly rounded elementary function library called SCR-LIBM in double-precision, which is stable and efficient. Our key idea is to divide subdomains and use the low-degree Taylor polynomial to approximate the elementary function in each subdomain. We simulate the high-precision representation based on the double-double data format, and use the error-free transformation and Double-double algorithm to control the error in the process of polynomial approximation and output compensation. Our approach ensures that the elementary function is correctly rounded, without the need for redundant iterations. The experimental evaluation shows that the average performance of elementary functions implemented in SCR-LIBM is 8.534 times faster than that of MPFR, and 2.492 times faster than that of CR-LIBM when dealing with the worst-case of correct rounding. What is more, our SCR-LIBM is more stable than CR-LIBM.},
-url = {https://doi.org/10.1142/S0218194023500675},
-doi = {10.1142/S0218194023500675},
-pdf = {https://www.worldscientific.com/doi/epdf/10.1142/S0218194023500675},
-}
-
-
-@article{psoed,
-abbr = {IETS},
-author = {Yang, Honru and Xu, Jinchen and Hao, Jiangwei and Zhang, Zuoyan and Zhou, Bei},
-bibtex_show = {true},
-title = {Detecting Floating-Point Expression Errors Based Improved PSO Algorithm},
-year = {2023},
-volume = {2023},
-journal = {IET Software},
-url = {https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/2023/6681267},
-doi = {https://doi.org/10.1049/2023/6681267},
-abstract = {The use of floating-point numbers inevitably leads to inaccurate results and, in certain cases, significant program failures. Detecting floating-point errors is critical to ensuring that floating-point programs outputs are proper. However, due to the sparsity of floating-point errors, only a limited number of inputs can cause significant floating-point errors, and determining how to detect these inputs and to selecting the appropriate search technique is critical to detecting significant errors. This paper proposes characteristic particle swarm optimization (CPSO) algorithm based on particle swarm optimization (PSO) algorithm. The floating-point expression error detection tool PSOED is implemented, which can detect significant errors in floating-point arithmetic expressions and provide corresponding input. The method presented in this paper is based on two insights: (1) treating floating-point error detection as a search problem and selecting reliable heuristic search strategies to solve the problem; (2) fully utilizing the error distribution laws of expressions and the distribution characteristics of floating-point numbers to guide the search space generation and improve the search efficiency. This paper selects 28 expressions from the FPBench standard set as test cases, uses PSOED to detect the maximum error of the expressions, and compares them to the current dynamic error detection tools S3FP and Herbie. PSOED detects the maximum error 100% better than S3FP, 68% better than Herbie, and 14% equivalent to Herbie. The results of the experiments indicate that PSOED can detect significant floating-point expression errors.},
-pages = {6681267},
-number = {1},
-pdf = {psoed.pdf},
-}
-
-
 @inproceedings{arfa,
 abbr = {ISSTA 2024},
 author = {Xu*, Jinchen and Cui*, Mengqi and Li, Fei and Zhang, Zuoyan and Yang, Hongru and Zhou†, Bei and Zhao†, Jie},
@@ -67,7 +33,7 @@ booktitle = {Proceedings of the 33rd ACM SIGSOFT International Symposium on Soft
 pages = {1516-1528},
 numpages = {13},
 keywords = {FPbench, dynamic analysis, e-graph, floating-point errors, numerical analysis, rewrite},
-pdf = {arfa.pdf},
+pdf = {https://dl.acm.org/doi/10.1145/3650212.3680378},
 slides = {arfaslides.pdf},
 location = {Vienna, Austria},
 series = {ISSTA 2024}
@@ -91,9 +57,9 @@ doi = {10.1007/s11227-023-05523-6},
 abstract = {Scientific and engineering applications rely on floating-point arithmetic to approximate real numbers. Due to the inherent rounding errors in floating-point numbers, error propagation during calculations can accumulate and lead to serious errors that may compromise the safety and reliability of the program. In theory, the most accurate method of error detection is to exhaustively search all possible floating-point inputs, but this is not feasible in practice due to the huge search space involved. Effectively and efficiently detecting maximum floating-point errors has been a challenge. To address this challenge, we design and implement an error detection tool for floating-point arithmetic expressions called HSED. It leverages modified mantissas under double precision floating-point types to simulate hierarchical searches from either half or single precision to double precision. Experimental results show that for 32 single-parameter arithmetic expressions in the FPBench benchmark test set, the error detection effects and performance of HSED are significantly better than the state-of-the-art error detection tools Herbie, S3FP and ATOMU. HSED outperforms Herbie, Herbie+, S3FP and ATOMU in 24, 19, 27 and 25 cases, respectively. The average time taken by Herbie, Herbie+, and S3FP is 1.82, 11.20, and 129.15 times longer than HSED, respectively.},
 journal = {J. Supercomput.},
 month = jul,
-pages = {1183–1205},
+pages = {1183-1205},
 numpages = {23},
-pdf = {hsed.pdf},
+pdf = {https://dl.acm.org/doi/abs/10.1007/s11227-023-05523-6},
 keywords = {Floating-point arithmetic, Error detection, Dynamic analysis, Hierarchical search}
 }
 
@@ -110,7 +76,7 @@ publisher = {IEEE Press},
 url = {https://doi.org/10.1109/ASE56229.2023.00139},
 slides = {eiffelslides.pdf},
 doi = {10.1109/ASE56229.2023.00139},
-pdf={eiffel.pdf},
+pdf={https://dl.acm.org/doi/10.1109/ASE56229.2023.00139},
 abstract = {Existing search heuristics used to find input values that result in significant floating-point (FP) errors or small ranges that cover them are accompanied by severe constraints, complicating their implementation and restricting their general applicability. This paper introduces an error analysis tool called Eiffel to infer error-inducing input ranges instead of searching them. Given an FP expression with its domain D, Eiffel first constructs an error data set by sampling values across a smaller domain ℛ and assembles these data into clusters. If more than two clusters are formed, Eiffel derives polynomial curves that best fit the bound coordinates of the error-inducing ranges in ℛ, extrapolating them to infer all target ranges of D and reporting the maximal error. Otherwise, Eiffel simply returns the largest error across ℛ. Experimental results show that Eiffel exhibits a broader applicability than Atomu and S3FP by successfully detecting the errors of all 70 considered benchmarks while the two baselines only report errors for part of them. By taking as input the inferred ranges of Eiffel, Herbie obtains an average accuracy improvement of 3.35 bits and up to 53.3 bits.},
 booktitle = {Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering},
 pages = {1441-1453},
