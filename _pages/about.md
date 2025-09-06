@@ -21,7 +21,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Zuoyan Zhang is currently a first-year PhD student at the [CYCLE Lab](https://cyclelaboratory.github.io/) at [Hunan University](https://www.hnu.edu.cn/index.htm) under the supervisor Prof. [Jie Zhao](https://yaozhujia.github.io/). He got MEng degree from the State Key Laboratory of Mathematical Engineering and Advanced Computing at Information Engineering University under the supervisor Prof. Shaozhong Guo and Assoc. Prof. Jinchen Xu in June 2024. 
+Zuoyan Zhang is currently a second-year PhD student at the [CYCLE Lab](https://cyclelaboratory.github.io/) at [Hunan University](https://www.hnu.edu.cn/index.htm) under the supervisor Prof. [Jie Zhao](https://yaozhujia.github.io/). He got MEng degree from the State Key Laboratory of Mathematical Engineering and Advanced Computing at Information Engineering University under the supervisor Prof. Shaozhong Guo and Assoc. Prof. Jinchen Xu in June 2024. 
 
 His research interests span **Numerical Program Analysis** and **Machine Learning Systems**. In numerical analysis, he focuses on floating-point error detection and automated program repair through expression rewriting. Those works have been published in [ASE 2023](https://ieeexplore.ieee.org/document/10298397), [TJSC 2023](https://link.springer.com/article/10.1007/s11227-023-05523-6), and [ISSTA 2024](https://dl.acm.org/doi/10.1145/3650212.3680378). In machine learning systems, he investigates automated search strategies for distributed parallelization of large language model training and compute-communication co-design to hide communication overhead.
 
