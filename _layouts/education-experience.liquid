@@ -3,12 +3,9 @@ layout: default
 ---
 <style>
   .edu-exp-page {
-    --edu-exp-border: color-mix(in srgb, var(--global-divider-color) 82%, transparent);
-    --edu-exp-soft: color-mix(in srgb, var(--global-theme-color) 8%, transparent);
-    --edu-exp-soft-strong: color-mix(in srgb, var(--global-theme-color) 14%, transparent);
+    --edu-exp-border: color-mix(in srgb, var(--global-divider-color) 72%, transparent);
     --edu-exp-muted: var(--global-text-color-light);
     --edu-exp-date-color: color-mix(in srgb, var(--global-text-color) 70%, var(--global-bg-color));
-    --edu-exp-accent: color-mix(in srgb, var(--global-theme-color) 30%, transparent);
   }
 
   .edu-exp-page .post-header {
@@ -32,7 +29,7 @@ layout: default
 
   .edu-exp-list {
     display: grid;
-    gap: 1.35rem;
+    gap: 0.95rem;
   }
 
   .edu-exp-item {
@@ -104,9 +101,18 @@ layout: default
   }
 
   .edu-exp-content {
-    background: linear-gradient(90deg, var(--edu-exp-soft) 0%, transparent 22%);
-    border-left: 2px solid var(--edu-exp-accent);
-    padding: 0.4rem 0 0.55rem 1rem;
+    position: relative;
+    padding: 0.35rem 0 0.95rem;
+  }
+
+  .edu-exp-item:not(:last-child) .edu-exp-content::after {
+    background: var(--edu-exp-border);
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 88%;
   }
 
   .edu-exp-role {
@@ -166,7 +172,11 @@ layout: default
     .edu-exp-content {
       grid-column: 2;
       grid-row: 2;
-      padding: 0.35rem 0 0.45rem 0.9rem;
+      padding: 0.25rem 0 0.85rem;
+    }
+
+    .edu-exp-item:not(:last-child) .edu-exp-content::after {
+      width: 92%;
     }
   }
 
