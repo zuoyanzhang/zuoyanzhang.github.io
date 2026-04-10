@@ -1,12 +1,11 @@
 - title: Education
-  summary: Academic training, research focus, and supervision.
   type: time_table
   contents:
     - title: PhD
       badge: HNU
-      institution: <a href='https://csee.hnu.edu.cn/index.htm'>College of Computer Science and Electronic Engineering</a>, <a href='https://www.hnu.edu.cn/index.htm'>Hunan University</a>, Changsha, China
+      institution: <a href='https://www.hnu.edu.cn/index.htm'>Hunan University</a>, Changsha, China
+      subinstitution: <a href='https://csee.hnu.edu.cn/index.htm'>College of Computer Science and Electronic Engineering</a>
       year: 2024.09 - Present
-      meta: Research focus on machine learning systems and numerical program analysis
       logo: /assets/img/brands/hnu.png
       description:
         - Supervisor&#58; <a href='https://yaozhujia.github.io/'>Prof. Jie Zhao</a>.
@@ -14,35 +13,30 @@
     - title: MEng
       badge: IEU
       institution: Information Engineering University, Zhengzhou, China
+      subinstitution: State Key Laboratory of Mathematical Engineering and Advanced Computing
       year: 2021.09 - 2024.06
-      meta: Concentrated on numerical program analysis and floating-point error detection
       logo: /assets/img/brands/ieu.png
       description:
-        - Supervisor&#58; Prof. Shaozhong Guo.
+        - Supervisor&#58; Prof. Shaozhong Guo and Assoc. Prof. Jinchen Xu.
     - title: BEng
       badge: HAUT
-      institution: <a href="https://computer.haut.edu.cn/">College of Information Science and Engineering</a>, <a href="https://www.haut.edu.cn/">Henan University of Technology</a>, Zhengzhou, China
+      institution: <a href="https://www.haut.edu.cn/">Henan University of Technology</a>, Zhengzhou, China
+      subinstitution: <a href="https://computer.haut.edu.cn/">College of Information Science and Engineering</a>
       year: 2017.09 - 2021.06
-      meta: Undergraduate training in computer and information science
       logo: /assets/img/brands/haut.png
 
 - title: Experience
-  summary: Industry and research roles with emphasis on systems and compiler work.
   type: time_table
   contents:
     - title: Compiler Development Intern
       badge: HW
       institution: <a href='https://www.huawei.com/en/'>Huawei</a>
+      subinstitution: 2012 Lab
       year: 2025.07 - 2026.03
-      meta: Worked on compiler optimization and intelligent compilation systems
       logo: /assets/img/brands/huawei.png
-      description:
-        - Contributed to compiler development for production-scale systems workloads.
-    - title: Research Intern
+    - title: High Performance Computing Intern
       badge: AISI
       institution: <a href='https://www.aisi.ac.cn/'>AI for Science Institute (BEIJING)</a>
+      subinstitution: ABACUS Team
       year: 2023.06 - 2023.09
-      meta: High-performance computing and numerical analysis
       logo: /assets/img/brands/aisi.png
-      description:
-        - High performance computing intern
