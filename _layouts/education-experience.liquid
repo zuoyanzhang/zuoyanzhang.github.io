@@ -3,9 +3,11 @@ layout: default
 ---
 <style>
   .edu-exp-page {
+    --edu-exp-badge-size: 4.9rem;
+    --edu-exp-line-gap: 1.5rem;
     --edu-exp-border: color-mix(in srgb, var(--global-divider-color) 72%, transparent);
     --edu-exp-muted: var(--global-text-color-light);
-    --edu-exp-date-color: color-mix(in srgb, var(--global-text-color) 70%, var(--global-bg-color));
+    --edu-exp-date-color: color-mix(in srgb, var(--global-text-color) 58%, var(--global-bg-color));
   }
 
   .edu-exp-page .post-header {
@@ -41,9 +43,8 @@ layout: default
 
   .edu-exp-date {
     color: var(--edu-exp-date-color);
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 0.01em;
+    font-size: 0.94rem;
+    font-weight: 400;
     line-height: 1.5;
     padding-top: 0.55rem;
   }
@@ -57,31 +58,42 @@ layout: default
 
   .edu-exp-marker::before {
     background: var(--edu-exp-border);
-    bottom: -1.5rem;
+    content: "";
+    left: 50%;
+    height: var(--edu-exp-line-gap);
+    position: absolute;
+    top: calc(-1 * var(--edu-exp-line-gap));
+    transform: translateX(-50%);
+    width: 1px;
+  }
+
+  .edu-exp-marker::after {
+    background: var(--edu-exp-border);
+    bottom: calc(-1 * var(--edu-exp-line-gap));
     content: "";
     left: 50%;
     position: absolute;
-    top: -1.5rem;
+    top: var(--edu-exp-badge-size);
     transform: translateX(-50%);
     width: 1px;
   }
 
   .edu-exp-item:first-child .edu-exp-marker::before {
-    top: 2.25rem;
+    display: none;
   }
 
-  .edu-exp-item:last-child .edu-exp-marker::before {
-    bottom: 2.25rem;
+  .edu-exp-item:last-child .edu-exp-marker::after {
+    display: none;
   }
 
   .edu-exp-badge {
     align-items: center;
     display: flex;
-    height: 4.9rem;
+    height: var(--edu-exp-badge-size);
     justify-content: center;
     overflow: hidden;
     position: relative;
-    width: 4.9rem;
+    width: var(--edu-exp-badge-size);
     z-index: 1;
   }
 
@@ -116,8 +128,9 @@ layout: default
   }
 
   .edu-exp-role {
-    font-size: 1.06rem;
-    font-weight: 700;
+    color: var(--global-text-color);
+    font-size: 1.02rem;
+    font-weight: 400;
     line-height: 1.35;
     margin: 0;
   }
@@ -169,6 +182,11 @@ layout: default
       transform: none;
     }
 
+    .edu-exp-marker::after {
+      left: 2.45rem;
+      transform: none;
+    }
+
     .edu-exp-content {
       grid-column: 2;
       grid-row: 2;
@@ -193,6 +211,10 @@ layout: default
     }
 
     .edu-exp-marker::before {
+      display: none;
+    }
+
+    .edu-exp-marker::after {
       display: none;
     }
 
