@@ -7,7 +7,7 @@ nav_order: 3
 ---
 
 ### Awards
-- (05/2025) China Scholarship Council (CSC) Scholarship/**国家留学基金委奖学金**
+- (05/2026) China Scholarship Council (CSC) Scholarship/**国家留学基金委奖学金**
 - (05/2025) PLMW Scholarship, PLDI 2025
 - (04/2025) AsiaLLVM Student Travel Grant, LLVM
 - (10/2024) Outstanding Master's Thesis Award/信息工程大学**优秀硕士论文奖**
