@@ -3,9 +3,9 @@ layout: page
 title: Chorus
 description: Chorus is a compiler-runtime framework that globally schedules transient parameter materialization for memory-constrained sharded LLM training.
 img: assets/img/chorus-cover.png
+card_img_offset: true
 importance: 0
 category: work
-github: https://github.com/zuoyanzhang/Chorus
 giscus_comments: false
 ---
 
@@ -19,4 +19,4 @@ Chorus is a compiler-runtime framework for transient parameter materialization i
 
 As the overview shows, the compiler builds a whole-iteration graph, derives a profile-guided block-level model, selects all-gather launch positions and retention decisions, and realizes the result through graph rewriting and fused prefetching. Runtime warmup then finalizes a persistent retention set using measured memory behavior.
 
-The public implementation supports two distributed training backends: DeepSpeed ZeRO-3 through DeepCompile and PyTorch SimpleFSDP through compiled autograd. Chorus provides launchers and reproducibility benchmarks for single-node and multi-node NVIDIA GPU environments. The source code and usage guide are available in the <a href="https://github.com/zuoyanzhang/Chorus">Chorus GitHub repository</a>.
+The public implementation supports two distributed training backends: DeepSpeed ZeRO-3 through DeepCompile and PyTorch SimpleFSDP through compiled autograd. The source code and usage guide are available in the <a href="https://github.com/zuoyanzhang/Chorus">Chorus GitHub repository</a>.
