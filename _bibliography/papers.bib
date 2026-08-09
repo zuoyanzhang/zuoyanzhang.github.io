@@ -1,5 +1,23 @@
 ---
 ---
+@article{chorus2026,
+abbr = {TACO 2026},
+author = {Zhang, Zuoyan and Wang, Jinyi and Tang, Zhuo and Zhao, Jie},
+title = {Global Scheduling of Transient Parameter Materialization for Sharded Training},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1544-3566},
+url = {https://doi.org/10.1145/3838601},
+doi = {10.1145/3838601},
+abstract = {Parameter-sharded training reduces device-memory use by storing model parameters as shards and reconstructing full parameters only before the computations that consume them. This materialization is implemented through frequent all-gathers, which can become exposed waits in each forward-backward training iteration. Hiding these waits is not only a communication-volume problem. It requires deciding where to launch each all-gather and how long the materialized full-parameter buffer should remain live. We present Chorus, a compiler-runtime framework for transient parameter materialization in memory-constrained sharded training. Chorus lowers the forward and backward passes into a whole-iteration graph that makes all-gathers, use-site waits, and releases explicit. It then builds a profile-guided block model and solves a mixed-integer scheduling problem that jointly chooses all-gather launch positions and iteration-local retention decisions under time-varying memory headroom. We implement Chorus on top of torch.compile and evaluate it on 7B to 13B dense Transformer models and one MoE model across 4 to 16 A100 GPUs. Chorus improves throughput over state-of-the-art ZeRO-style and FSDP-style baselines while staying within the configured memory budget.},
+journal = {ACM Trans. Archit. Code Optim.},
+month = aug,
+bibtex_show = {true},
+pdf = {https://dl.acm.org/doi/10.1145/3838601},
+article-number = {3838601}
+}
+
 @inproceedings{hlpp2026,
 abbr = {HLPP 2026},
 author = {Duan, Zijian and Zhang, Zuoyan and Dai, Tao and Liang, Zhihong and Zhao, Jie},
