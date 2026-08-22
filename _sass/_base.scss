@@ -683,6 +683,12 @@ footer.sticky-bottom {
     img.project-card-img-offset {
       margin-top: 10.4%;
     }
+
+    img.project-card-img-contain {
+      aspect-ratio: 586 / 500;
+      object-fit: contain;
+      object-position: center;
+    }
   }
 
   .col {
