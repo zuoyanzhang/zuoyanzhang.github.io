@@ -4,7 +4,7 @@ title: Shockwave
 description: Shockwave is a memory-safe hierarchical planner for hybrid-parallel Transformer training.
 img: assets/img/shockwave.webp
 card_img_contain: true
-importance: 3
+importance: -1
 category: work
 giscus_comments: false
 ---
