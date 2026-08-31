@@ -9,7 +9,7 @@ profile:
   image: main.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-      <a href="/assets/pdf/cv.pdf"><i class="ai ai-cv-square ai-2x"></i></a>
+      <a href="/cv/" aria-label="View CV" title="View CV"><i class="ai ai-cv-square ai-2x"></i></a>
       <a href="zyanz@hnu.edu.cn"><i class="fa-solid fa-envelope ai-2x"></i></a>
       <a href="https://dblp.org/pid/360/7212.html"><i class="ai ai-dblp ai-2x"></i></a>
       <a href="https://scholar.google.com/citations?user=m6lSKEAAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a>
