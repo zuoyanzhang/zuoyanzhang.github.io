@@ -830,6 +830,7 @@ footer.sticky-bottom {
 
         span.ccf-rank.btn {
           border: 1px solid currentColor;
+          background-color: transparent;
           padding: 0.25rem 1rem;
           margin-left: 0;
           font-weight: 600;
@@ -838,22 +839,18 @@ footer.sticky-bottom {
 
           &.ccf-rank-a {
             color: #c62828;
-            background-color: rgba(198, 40, 40, 0.08);
           }
 
           &.ccf-rank-b {
             color: #e06c00;
-            background-color: rgba(224, 108, 0, 0.08);
           }
 
           &.ccf-rank-c {
             color: #1565c0;
-            background-color: rgba(21, 101, 192, 0.08);
           }
 
           &.ccf-rank-non-ccf {
             color: #6c757d;
-            background-color: rgba(108, 117, 125, 0.08);
           }
         }
       }
@@ -926,22 +923,18 @@ html[data-theme="dark"] {
   .publications ol.bibliography li .links span.ccf-rank.btn {
     &.ccf-rank-a {
       color: #ff6b6b;
-      background-color: rgba(255, 107, 107, 0.12);
     }
 
     &.ccf-rank-b {
       color: #ffb347;
-      background-color: rgba(255, 179, 71, 0.12);
     }
 
     &.ccf-rank-c {
       color: #64b5f6;
-      background-color: rgba(100, 181, 246, 0.12);
     }
 
     &.ccf-rank-non-ccf {
       color: #adb5bd;
-      background-color: rgba(173, 181, 189, 0.12);
     }
   }
 }
