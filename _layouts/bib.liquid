@@ -250,6 +250,24 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.ccf %}
+        {% assign ccf_rank = entry.ccf | strip | upcase %}
+        {% case ccf_rank %}
+          {% when 'A' %}
+            {% assign ccf_class = 'a' %}
+            {% assign ccf_label = 'CCF A' %}
+          {% when 'B' %}
+            {% assign ccf_class = 'b' %}
+            {% assign ccf_label = 'CCF B' %}
+          {% when 'C' %}
+            {% assign ccf_class = 'c' %}
+            {% assign ccf_label = 'CCF C' %}
+          {% else %}
+            {% assign ccf_class = 'non-ccf' %}
+            {% assign ccf_label = 'Non-CCF' %}
+        {% endcase %}
+        <span class="ccf-rank ccf-rank-{{ ccf_class }} btn btn-sm z-depth-0" title="CCF rank: {{ ccf_label }}">{{ ccf_label }}</span>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
